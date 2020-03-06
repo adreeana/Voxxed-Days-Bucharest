@@ -1,4 +1,4 @@
-# oneteam
+# Du Wonder Woman aux Avengers: l'équipe au secours des héros
 
 Les entreprises misent souvent sur une personne providentielle qui à elle seule porte un projet. Malgré les échecs à long terme elles gardent cette approche, car elle garantit l'avancement rapide à court terme.
 
@@ -8,7 +8,8 @@ Le pair programming et le TDD bien pratiqués permettent d'avoir du code refacto
 
 En pratiquant les deux ensemble, vous permettez la cohésion d'une équipe ou chacun a une place importante et contribue au maximum pour la réussite d'un projet à long terme. 
 
-**
+
+# From Wonder Woman to Avengers: the team rescues the heroes
 
 Companies usually invest everything on a single providential person to conduct a project. Despite the failures at long term, they are keeping this method because it guarantees the success at short term.
 
