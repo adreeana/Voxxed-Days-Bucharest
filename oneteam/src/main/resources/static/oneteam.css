@@ -1,0 +1,45 @@
+.o-v-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.o-h-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.o-fixed-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 600px;
+}
+
+.o-nested-container {
+    margin: 0 10px 0 10px;
+    min-height: 120px;
+}
+
+.o-rounded {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.o-main-paragraph {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.o-paragraph {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.o-item {
+    margin: 10px;
+}
+
+.o-nested-button {
+    margin-top: 20px;
+}

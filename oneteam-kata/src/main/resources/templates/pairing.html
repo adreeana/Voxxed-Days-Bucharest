@@ -1,0 +1,40 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/oneteam.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Shuffle Pairs</title>
+    <head>
+<body>
+<div class="o-v-container">
+    <span class="h2 text-monospace o-main-paragraph o-center"
+          th:text="'Pairings of \'' + ${teamName} + '\''"></span>
+
+    <a class="btn btn-link"
+       th:href="@{/engineers(teamName=${teamName})}">Add engineers</a>
+
+    <div class="o-v-container o-fixed-container o-rounded">
+        <span class="h4 text-monospace o-paragraph">Pairs</span>
+        <div class="o-h-container">
+            <div class=" o-v-container o-nested-container o-rounded"
+                 th:each="pair : ${pairs}">
+                <h4><span class="badge badge-success o-item"
+                          th:text="${pair.getDriver()}">
+                    </span></h4>
+                <h4><span class="badge badge-info o-item"
+                          th:text="${pair.getNavigator()}">
+                    </span></h4>
+            </div>
+        </div>
+        <a class="btn btn-primary o-nested-button"
+           th:href="@{/pairing(teamName=${teamName})}">Shuffle pairs</a>
+    </div>
+</div>
+</body>
+</html>

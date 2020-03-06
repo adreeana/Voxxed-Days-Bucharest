@@ -1,0 +1,5 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+171297675,Ana should be able to add a team,"",1,"Feb 10, 2020","Feb 16, 2020",feature,,unstarted,"Feb 16, 2020",,,Adriana Nitescu,,https://www.pivotaltracker.com/story/show/171297675,
+171291166,Ana should be able to list team engineers,"",1,"Feb 10, 2020","Feb 16, 2020",feature,,unstarted,"Feb 15, 2020",,,Adriana Nitescu,,https://www.pivotaltracker.com/story/show/171291166,
+171291287,Ana should be able to add engineers to the team,"",1,"Feb 10, 2020","Feb 16, 2020",feature,,unstarted,"Feb 15, 2020",,,Adriana Nitescu,,https://www.pivotaltracker.com/story/show/171291287,
+171292442,Ana should be able to shuffle pairs with team engineers,"",1,"Feb 10, 2020","Feb 16, 2020",feature,,unstarted,"Feb 15, 2020",,,Adriana Nitescu,,https://www.pivotaltracker.com/story/show/171292442,
